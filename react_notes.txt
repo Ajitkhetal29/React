@@ -93,6 +93,7 @@ React JS :
 			- Children helps to pass elemets into component
 			- used for reusable components
 			- can access with props.children
+			- easy to reuse components
 
 
 		
