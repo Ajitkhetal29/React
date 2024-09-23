@@ -1,0 +1,62 @@
+React JS :
+
+	- react js is a javascript library for front-end developmemnt.
+	- used to build user interface and ui components.
+	- known for its component based architecture which allows us to create reusable comnponents.
+	- used to build single page application.
+	jsx feature
+	
+	Node.js - provides the runtime environment to execute javascript code.
+	npm		- use to manage project dependencies 
+	
+	
+	IDE - integrated developement environment
+		- make developer life easy
+		- it is an software suit with basic tools required for software development
+		- helps in coding , finding errors and testing, version control , code autocomplete
+		- helps to improve productivity
+		
+	Requirement - 
+		- Node:
+				For backend
+				load server
+				
+	prject Structure - 
+			-node modeules - all the dependecies are here
+			-public - static files that dont change
+			-src - main react project folder
+			-assets - static project data
+			-package.json - mata data file, all the information about project, all dependencies information react, dev dependencies , 
+			
+			-package-lock.json - dependencies info in detail
+			
+			
+	File Extensions:
+		.js - javascript
+			- conatins regular javascript code
+			- used for components
+			
+		.JSX - stands for javascriptx<Lcombines js with HTML-like tag
+		
+		
+	Components - 1. Functional Components
+				 2. Class components
+				 
+		 1. Functional components- Initialy stateless
+								 - can use hooks for state and effect
+								 - simple
+	
+	JSx - Determine how UI will look when complition is done
+
+    Export: Enables the use of a component in other parts.
+        1. named-  Allows exporting multiple items from a module. 
+        2. default- Allows exporting a single component as the default from a module.  
+            
+
+	Naming convention - 
+		- alwas keep the function name first char in capital.
+		- all the html tags are in small case so to distingwuish between html tags and custom tags keep the function name first char in capital.
+
+
+	create react app cmd - 
+		npm create vite@latest

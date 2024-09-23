@@ -1,0 +1,98 @@
+React JS :
+
+	- react js is a javascript library for front-end developmemnt.
+	- used to build user interface and ui components.
+	- known for its component based architecture which allows us to create reusable comnponents.
+	- used to build single page application.
+	jsx feature
+	
+	Node.js - provides the runtime environment to execute javascript code.
+	npm		- use to manage project dependencies 
+	
+	
+	IDE - integrated developement environment
+		- make developer life easy
+		- it is an software suit with basic tools required for software development
+		- helps in coding , finding errors and testing, version control , code autocomplete
+		- helps to improve productivity
+		
+	Requirement - 
+		- Node:
+				For backend
+				load server
+				
+	prject Structure - 
+			-node modeules - all the dependecies are here
+			-public - static files that dont change
+			-src - main react project folder
+			-assets - static project data
+			-package.json - mata data file, all the information about project, all dependencies information react, dev dependencies , 
+			
+			-package-lock.json - dependencies info in detail
+			
+			
+	File Extensions:
+		.js - javascript
+			- conatins regular javascript code
+			- used for components
+			
+		.JSX - stands for javascriptx<Lcombines js with HTML-like tag
+		
+		
+	Components - 1. Functional Components
+				 2. Class components
+				 
+		 1. Functional components - Initialy stateless
+								-can use hooks for state and effect
+								- simple
+	
+	JSx - Determine how UI will look when complition is done
+
+
+	Create Project using vite
+
+	- npm create vita@latest
+
+	create component - 
+		- craete the .jsx file to create component.
+
+	To install bootstrap - 
+		- install bootstrap using - npm i bootstrap@5.3.3
+		- Import the css and js file path in App.jsx 
+
+	JSX - 
+		Definition: JSX determines how the UI will
+		look wherever the component is used.
+		2. Not HTML: Though it resembles HTML,
+		you're actually writing JSX, which stands
+		for JavaScript XML.
+		3. Conversion: JSX gets converted to regular
+		JavaScript.
+		
+
+
+	Fragtment - 
+		- Allows grouping of multiple elemets without extra dom nodes
+		- Two syntaxes:
+				1. <React.Fragment>...</React.Fragment>
+				2. Short: <>...</>
+
+
+	Map Method - 
+			- use to render the data from ana array
+			- JSX Elements: Transform array items into JSX.
+			- Inline Rendering: Directly inside JSX
+				{items.map(item => <li key={item.id}>{item.name}</li>)} 
+
+
+
+
+******
+
+	Passing children -
+			- Children helps to pass elemets into component
+			- used for reusable components
+			- can access with props.children
+
+
+		
