@@ -84,6 +84,35 @@ React JS :
 			- Inline Rendering: Directly inside JSX
 				{items.map(item => <li key={item.id}>{item.name}</li>)} 
 
+	
+    Conditional rendering :
+            - Helps to display the content based on conditions
+            - Allows dynamic user interface
+
+        Methods : 
+            1. If-else statement
+            2. Ternary operations
+            3. Logical Operator
+
+        Benifits :
+            • Enhances user experience.
+            • Reduces unnecessary rendering.
+            • Makes apps more interactive and responsive
+
+    Passing data Via Props :
+
+        - Mechanism for passing data
+        - Read Only , cannot Edit
+        - Can pass data from parent to child
+        - Communicate betn two components
+        - works like html attribute
+
+    CSS Module :
+        - Loaclized class names to avoide global conflicts
+        - Styles are scopped to individual components
+        - component specific Styles
+        - can use alongside gloabl CSS when needed
+
 
 
 
